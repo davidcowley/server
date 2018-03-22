@@ -4,7 +4,7 @@ const express = require('express');  // server side
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({hi: 'there'});
+  res.send({hi: 'there, it is a wonderfull world!'});
 });
 
 const PORT = process.env.PORT || 5000;
